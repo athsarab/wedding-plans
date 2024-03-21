@@ -1,0 +1,306 @@
+.checkout-section {
+  border-radius: 25px; /* Rounded corners */
+  background-color: #dcff3e; 
+  margin-top: 20px; /* Top margin */
+
+  padding: 20px; /* Inner padding */
+
+  overflow: hidden;/* Overflow hidden */
+
+  margin-top: 30px;/* Top margin */
+  box-shadow: -2px 2px 4px 0px #211e1c; /* Shadow effect */
+
+  margin-bottom: 90px; /* Bottom margin */
+  margin-left: 20px; /* Left margin */
+  margin-right: 20px;/* Right margin */
+  border: 1px solid #ccc; /* Border with a color */
+  background-color: #fff901; /* Background color */
+  -webkit-border-radius: 25px;/* Webkit-specific rounded corners */
+  -moz-border-radius: 25px; /* Mozilla-specific rounded corners */
+
+  -ms-border-radius: 25px;/* Microsoft-specific rounded corners */
+
+  -o-border-radius: 25px; /* Opera-specific rounded corners */
+}
+/* Style for a category heading */
+
+.cate-h {
+  font-size: 24px;
+}
+/* Style for a category column */
+.category-column {
+  float: left;
+  width: 33.33%; /* Occupy 33.33% of the parent width */
+
+  text-align: center; /* Center-align text */
+  margin-top: 40px;/* Top margin */
+}
+/* Style for a details section */
+.details-section {
+  width: 1080px;/* Fixed width */
+  height: 966px;
+  flex-shrink: 0;/* Don't shrink with flex layout */
+
+  /*background-color: red;*/
+  position: absolute; /* Position is absolute */
+
+  left: 120%;/* Positioned far to the right */
+  top: -10%;
+  border-radius: 20px; /* Rounded corners */
+  border: 4px solid #000; /* Border with a color */
+  background: #f0f0f0; /* Background color */
+
+  box-shadow: 1px 7px 7px 8px rgba(0, 0, 0, 0.25);/* Shadow effect */
+  -webkit-border-radius: 20px;/* Webkit-specific rounded corners */
+
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+/* Style for my details section */
+.my-details {
+  width: 555px; /* Fixed width */
+
+  height: 370px;
+  flex-shrink: 0; /* Don't shrink with flex layout */
+
+  display: inline-block;/* Display as inline block */
+  background-color: #f2f2f2;
+  position: absolute;
+  left: 31px;
+  margin-top: -75px;
+  box-shadow: -2px 2px 4px 0px #211e1c; /* Shadow effect */
+  border-radius: 10px; /* Rounded corners */
+
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+/* Style for detail container */
+.detail-container {
+  margin-left: 30px; /* Left margin */
+
+  margin-top: 40px;/* Top margin */
+
+}
+/* Style for paragraphs within the detail container */
+
+.detail-container > p {
+  margin: 20px;/* Margin around paragraphs */
+
+}
+/* Style for billing  */
+.billing {
+  margin-left: 202px;
+  margin-top: 17px;
+}
+
+/* Style for billing address content */
+
+.bill-content {
+  position: relative; /* Position is relative */
+  top: 272px; /* Positioned from the top */
+  left: -406px;
+  display: inline-block; /* Display as inline block */
+  margin-right: 20px;
+  border-radius: 20px; /* Rounded corners */
+
+  width: 568px; /* Fixed width */
+
+  border-radius: 15px;
+  background-color: #f2f2f2;
+  border: 1px solid #ccc; /* Border with a color */
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 20px; /* Inner padding */
+
+  overflow: hidden;
+  box-shadow: -2px 2px 4px 0px #211e1c; /* Shadow effect */
+  -webkit-border-radius: 15px;/* Webkit-specific rounded corners */
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+/* Style for heading within billing address content */
+
+.bill-content > h3 {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+/* Style for paragraphs within billing address content */
+.bill-content > p {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+/* Style for a button with the class "place" */
+
+.place {
+  width: 40%; /* Button width */
+
+  padding: 10px;
+  border: none;
+  border-radius: 3px;/* Rounded corners */
+  background-color: #e30000;
+  color: white; /* Text color */
+
+  cursor: pointer;/* Cursor on hover */
+
+  margin-left: 134px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/* Hover style for the "place" button */
+
+.place:hover {
+  background-color: #ff4d4d; /* Background color on hover */
+}
+/* Style for the payment method */
+.payment-methode {
+  margin-top: 20px;
+}
+
+/* Style for an order container */
+.order-container {
+  display: inline-block;/* Display as inline block */
+
+  position: relative;
+  left: 952px;/* Positioned from the left */
+
+  top: -227px;/* Positioned from the top */
+  width: 433px;
+  height: 490px;/* Fixed height */
+
+  flex-shrink: 0; /* Don't shrink with flex layout */
+  display: inline-block;
+  background-color: #f2f2f2;
+  margin-top: -75px; /* Negative top margin */
+  box-shadow: -2px 2px 4px 0px #211e1c;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+
+.success-msg {
+  display: inline-block;
+  position: relative;
+  top: -524px;
+  left: 665px;
+  font-size: 34px;
+  font-weight: bolder;
+  width: 816px;
+  height: 44px;
+  text-align: center;
+  color: #000000;
+  border: 2px solid black;
+}
+
+.check-order {
+  display: inline-block;
+  position: relative;
+  top: -478px;
+  left: 149px;
+  font-size: 22px;
+  color: black;
+}
+
+/* footer-style */
+
+footer > div {
+  height: 310px;
+  flex-shrink: 0;
+
+  border-radius: 40px 40px 0px 0px;
+  /* background: #bbdff4; */
+  background: #323030;
+  margin-top: 25px;
+}
+
+footer > div > div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer > div > div > img:nth-child(1) {
+  margin-top: 33px;
+}
+
+footer > div > div > img:nth-child(2) {
+  margin-left: 300px;
+  margin-top: 57px;
+}
+
+footer > div > div ul {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 8px;
+  margin-top: 70px;
+  margin-left: -100px;
+}
+
+footer > div > div > ul:nth-child(3) {
+  padding-right: 65px;
+}
+footer > div > div > ul li {
+  list-style: none;
+
+  cursor: pointer;
+  font-size: 16px;
+
+  color: #ffffff;
+  font-family: saunion-serif, Georgia, Times New Roman, Times, serifns-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+footer > div > h3 {
+  color: #f5eded;
+  font-family: Lato;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+  text-transform: uppercase;
+}
+
+footer > div {
+  position: relative;
+}
+
+footer > div > h3:nth-child(2) {
+  position: absolute;
+  right: 0;
+  top: 0;
+  left: 69%;
+  margin-top: 40px;
+}
+
+footer > div > h3:nth-child(3) {
+  position: absolute;
+  right: 0;
+  top: 0;
+  left: 85%;
+  margin-top: 40px;
+}
+
+footer > div > p:nth-child(4) {
+  color: #ffffff;
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 4.2px;
+  opacity: 0.6;
+  margin: auto;
+  position: relative;
+
+  display: inline-block;
+  margin-left: 23%;
+  margin-top: 2%;
+}
